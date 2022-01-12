@@ -1,0 +1,24 @@
+{
+  "name": "Soketdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon cron.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cron": "^1.8.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2",
+    "request": "^2.88.2",
+    "shelljs": "^0.8.4",
+    "socket.io": "^4.4.0"
+  }
+}
