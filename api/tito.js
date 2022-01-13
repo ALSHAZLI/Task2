@@ -61,3 +61,7 @@ const cron = require('node-cron');
      })
     
   }, null, true, "Africa/Nouakchott");
+app.listen((process.env.PORT|| 8800), ()=>{
+    console.log('Backend server running on port 8800')
+  });
+
