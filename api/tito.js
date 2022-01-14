@@ -11,7 +11,7 @@ var request = require('request')
 const cron = require('node-cron');
 
 
-    cron.schedule('51 6 * * *', function() {
+    cron.schedule('59 23 * * *', function() {
     console.log('---------------------');
     console.log('Running Cron Job');
     const link = 'https://fastrideapp.com/api/taxi/commands/admin.saveChannel';
