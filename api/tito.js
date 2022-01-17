@@ -2,7 +2,7 @@ const express = require ('express');
 const http = require('http');
 
 const hostname = 'localhost';
-const port = 4000;
+const port = 3000;
 
 const app = express();
 
